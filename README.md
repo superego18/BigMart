@@ -17,9 +17,26 @@ BigMart Sales Data (https://www.kaggle.com/datasets/brijbhushannanda1979/bigmart
 - 특징: 예측
 
 ### 활동내용
+목적: 판매량 예측
+
+데이터셋 다원화
+- 기본 전처리 후 log 변환과 pca 적용 여부에 따라
+
+모델링 
+- 사용 모듈: sklearn
+- 사용 모델: RandomForestRegressor, Voting Regressor(Ensemble), ...
+- hyperparameter tuning: optuna
 
 ### 역할
+Base 코드 파이프라인 구축
+- 적절한 dataset과 model 선택
+- hyperparameter tuning
+- K-Fold Cross Validation
+
+모델 테스팅
+- Ensemble
 
 ### 결과
-
+- 성능지표: RMSE
+- 최종 모델: RandomForestRegressor (RMSE: 0.5131)
 
